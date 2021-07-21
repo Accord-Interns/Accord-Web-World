@@ -7,5 +7,5 @@ Main Link :
 
 Jaydeep : https://accord-interns.github.io/Linoor-Template/Jaydeep/
 Yadnesh : https://accord-interns.github.io/Linoor-Template/yadnesh/
-Kalpesh :
+Kalpesh : https://accord-interns.github.io/Linoor-Template/kalpesh/
 Sanket  :
