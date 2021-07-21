@@ -1,0 +1,34 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+
+
+.headline{
+    background-image:url("http://layerdrops.com/linoorwp/wp-content/uploads/2021/01/image-7.jpg");
+    height: 70vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    overflow: hidden;
+/* background: #000000;  fallback colour. Make sure this is just one solid colour. */
+background: -webkit-linear-gradient(rgba(22, 22, 24, 0.4), rgba(39, 35, 36, 0.7)), url("http://layerdrops.com/linoorwp/wp-content/uploads/2021/01/image-7.jpg");
+filter: grayscale(90%);
+position: relative;
+background-size:cover;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+}
+.headline h6{
+    padding-top: 0.5rem;
+text-align: center;
+font-size: 1rem;
+}
+main{
+    margin-top: 8rem;
+}
