@@ -11,4 +11,4 @@ Yadnesh : https://accord-interns.github.io/Linoor-Template/yadnesh/
 
 Kalpesh : https://accord-interns.github.io/Linoor-Template/kalpesh/
 
-Sanket  :  https://accord-interns.github.io/Linoor-Template/Sanket/
+Sanket  :  https://accord-interns.github.io/Linoor-Template/Sanket/index.html
