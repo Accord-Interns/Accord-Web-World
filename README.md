@@ -5,7 +5,7 @@ While uploading, please create a folder with your name in your system and upload
 
 Main Link : https://accord-interns.github.io/Linoor-Template//landing%20page/
 
-Jaydeep : https://accord-interns.github.io/Linoor-Template/Jaydeep/
+Jaydeep : https://accord-interns.github.io/Linoor-Template//Jaydeep/jaydeep-index.html
 
 Yadnesh : https://accord-interns.github.io/Linoor-Template/yadnesh/
 
