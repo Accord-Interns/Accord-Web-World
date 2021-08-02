@@ -733,9 +733,15 @@ display: inline-block;
   }
   .commit{
     font-size: 17px;
+    padding:5px;
   }
   .trust{
     font-size: 25px;
+    padding:5px;
+  }
+  
+  .photography{
+    display:none;
   }
 
   .numbers_section{
@@ -759,6 +765,24 @@ display: inline-block;
   .num_sec_1{
     display: block;
   }
+  
+
+.j_upabove_left_text a{
+  text-decoration: none;
+}
+
+.j_upabove_left_text h3{
+  color: lightslategray;
+}
+
+.upabove_half_left_1 a:hover{
+  text-decoration: underline;
+}
+
+.j_upabove_left_text h3{
+color: lightslategray;
+
+}
   
   .container{
     height: auto;
