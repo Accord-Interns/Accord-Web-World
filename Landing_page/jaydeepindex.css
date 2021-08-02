@@ -732,8 +732,7 @@ display: inline-block;
     display: block;
   }
   .commit{
-    font-size: 17px;
-    padding:5px;
+    display:none;
   }
   .trust{
     font-size: 25px;
