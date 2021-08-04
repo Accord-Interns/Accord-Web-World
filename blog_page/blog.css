@@ -3,20 +3,291 @@
     padding: 0;
 } 
 
-.head-section{
-    height:65vh;
-    background-repeat: no-repeat;
-    width:100%;
-    -webkit-filter:grayscale(100%);
-    filter:grayscale(100%);  
-    background-image: -webkit-linear-gradient(rgba(22,22,24,0.4),rgba(39,35,36,0.7)),url("image-7.jpg");  
-    position:relative;
- background-size: cover;  
-    display:flex; 
-    justify-content: center;
+  .bars{
+    display: none;
+    margin-right: 0%;
+  }
+  
+  .fa-bars{
+    color: orange;
+    margin: 25px;
+    
+  }
+  
+  .header_section{
+    width: 100%;
+    height: 100vh ;
+    background-image: url('yadnesh-images/newbg2.jpg');
+    background-repeat: no-repeat;    
+  }
+  
+  .navbar{
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    border-bottom: 1px solid gray;
+  }
+  .linoor_logo{
+    width: 20%;
+    margin: 25px;
+    margin-left: 40px;
+    height: 40px;
+  }
+  
+  .linoor_logo img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .nav_elements{
+    margin: 25px;
+    color: white;
+    text-align: center;
+  }
+  
+  .nav_elements ul{
+    display: flex;
+    list-style-type:none;
+    
+  }
+  
+  .nav_elements li{
+    margin: 15px;
+    text-decoration: none;
+  }
+  
+  .nav_elements ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: orange;
+    cursor: pointer;
+  }
+  
+  .call{
+    width: 13%;
+    height: auto;
+    color: white;
+    margin: 25px;
+    margin-left: 20%;
+    text-align: center;
+  }
+  
+  
+  
+  .welcome_text{
+    margin-left: 5%;
+    margin-top: 12%;
+    color: white;
+    width: 50%;
+    height: auto;
+  }
+  
+  .welcome_text h5{
+    font-size: 24px;
+  }
+  
+  .welcome_text h1{
+    font-size: 90px;
+  }
+  
+  .discover_btn button{
+    width: 20%;
+    height: 50px;
+    background-color: orange;
+    padding: 5px;
+    color: black;
+    border-radius: 8px;
+  }
+  
+  .discover_btn button:hover{
+    background-color: black;
+    color: orange;
+    cursor: pointer;
+  }
+  
+  .social_media{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: orange;
+    transform: rotate(-90deg);
+  }
+  
+  .social_media h4{
+    margin: 10px;
+  }
+  
+  .main_div{
+    display: flex;
+  }
+  .menu {
+    display: none;
+  }
+  
+  .left_curve{
+    margin-top: -10%;
+  }
+  .right_curve{
+    margin-top: 7%;
+    margin-left: 55%;
+  }
+  
+  .date{
+    margin-left: -70%;
+    font-size: 10px;
+    margin-top: 1%;
+    color: white;
+    display: flex;
+    /* flex-direction: column; */
+    writing-mode: vertical-rl;
+  }
+  .social{
+    margin-left: -1%;
+    font-size: 10px;
+    margin-top: 25%;
+    color: white;
+    display: flex;
+    /* flex-direction: column; */
+    writing-mode: vertical-rl;
+  }
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #24252a;
+    overflow-x: hidden;
+    transition: width 0.5s ease 0s;
+  }
+  
+  .overlay--active {
+    width: 100%;
+  }
+  
+  .overlay__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
     align-items: center;
-    color: whitesmoke;
-}
+    justify-content: center;
+  }
+  
+  .overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: color 0.3s ease 0s;
+  }
+  
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #0088a9;
+  }
+  .overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #edf0f1;
+  }
+  
+  @media (max-device-width: 992px){
+    .navbar{
+        border:none;
+    }
+    .bars{
+    display: block;
+  
+    }
+    .welcome_text{
+    margin-left: 20%;
+    margin-top: -1%;
+    }
+    .nav_elements{
+        display: none;
+    }
+    .call{
+        display: none;
+    }
+    .fa-bars{
+        text-align: right;
+    }
+   
+   .sidebar{
+     position: fixed;
+     top: 0px;
+     left: -50%;
+     transition: left 0.3s ease-in-out;
+    }
+  
+    .left_curve{
+        display: none;
+    }
+    .right_curve{
+        display: none;
+    }
+    .date{
+        display: none;
+    }
+    .social{
+        display: none;
+    }
+    .menu {
+      display: initial;
+    }
+  
+  }
+  
+  @media (max-device-width: 480px){
+    .welcome_text{
+    margin-left: 15%;
+    margin-top: 5%;
+    }
+    .welcome_text h5{
+      font-size: 20px;
+    }
+    
+    .welcome_text h1{
+      font-size: 50px;
+    }
+    .discover_btn button{
+      width: 50%;
+      height: 50px;
+      background-color: orange;
+      padding: 5px;
+      color: black;
+      border-radius: 8px;
+    }
+    .overlay a {
+      font-size: 20px;
+    }
+    .overlay .close {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+    .date{
+        display: none;
+    }
+    .social{
+        display: none;
+    }
+  
+  }
+
+  .center-head {
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+  }
+  .servi-head1{
+      font-size: 80px;
+  }
+  .servi-head2{
+    font-size: 30px;
+  }
+
 .head-contain h2{
     padding-top: 3rem; 
     font-size: 5.5rem;
