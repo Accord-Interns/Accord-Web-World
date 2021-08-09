@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=0.86, user-scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="blog.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="yadnesh.css"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>Document</title>
+</head>
+
+<style>
+    ::-webkit-scrollbar {
+        width: 20px;
+    }
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: orange; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: orangered; 
+}
+</style>
+
+<body style="overflow-x: hidden !important;">
+ 
+   <section class="header_section">
+    <header id="navbar_top">
+        <a class="y_logo" href="#"><img src="yadnesh-images/IMG_2327.PNG" alt="logo"></a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="jaydeep-portfolio.html">Portfelio</a></li>
+                <li><a href="yadnesh-allservice.html">Services</a></li>
+                <li><a href="jaydeep-ourTeam.html">Our Team</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#">Contact us</a></li>
+                <!-- <li><a href="#"><img src="yadnesh-images/search.svg" alt="" ></a></li> -->
+                
+            </ul>
+        </nav>
+        <a class="cta" href="#">Call Anytime <br> 666 8888 0000</a>
+        <p class="menu cta"><i style="color: orange;" class="fas fa-bars fa-2x"></i></p>
+    </header>
+        <div class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay__content">
+                <a href="index.html">HOME</a>    
+                <a href="aboutus.html">ABOUT US</a>    
+                <a href="yadnesh-allservice.html">SERVICES</a>  
+                <a href="jaydeep-portfolio.html">PORTFOLIO</a>  
+                <a href="jaydeep-ourTeam.html">OUR TEAMS</a>    
+                <!-- <li><a>SHOP</a></li> -->
+                <a href="blog.html">BLOG</a>    
+                <a href="#contact">CONTACT US</a>   
+            <!-- <a href="#"><img src="search.svg" alt=""></a> -->
+            </div>
+        </div>
+
+        <div class="center-head">
+            <p class="servi-head1">Blogs</p>
+            <p class="servi-head2"><a href="index.html" target="_blank" >Home</a><span style="color: orange;"> Blogs </span></p>
+          
+          </div>
+    </section>
+
+    <script type="text/javascript">
+        const doc = document;
+        const menuOpen = doc.querySelector(".menu");
+        const menuClose = doc.querySelector(".close");
+        const overlay = doc.querySelector(".overlay");
+        
+        menuOpen.addEventListener("click", () => {
+          overlay.classList.add("overlay--active");
+        });
+        
+        menuClose.addEventListener("click", () => {
+          overlay.classList.remove("overlay--active");
+        });
+        </script>
+    <!-- middle section -->
+    <div class="s_main">
+        <div class="s_bo">
+            <input type="search" id="search" placeholder="Search here....">
+            <img src="sanket-images/icons8-search-50.png" id="icon" ALIGN="right" style="width: 1.7%;position: absolute;right: 14%;margin-top: 1.4rem;cursor: pointer;">
+        </div>
+        <div class="s_box">
+            <h3 id="s_h3" style="font-family:'Bebas Neue', cursive;margin-top:2rem;padding-top:.5rem;font-weight: 100;font-size: 22px;padding-left: 3rem;">LATEST POSTS</h3>
+        <!--1st post-->
+            <img src="sanket-images/blog-post-3-150x150.jpg" id="post_im">
+            <h3 id="post_te">LEVERAGE AGILE FRAMEWORKS TO PROVIDE A ROBUST</h3>
+        <!--2nd post-->
+             <img src="sanket-images/blog-post-2-150x150.jpg" id="post_im1">
+             <h3 id="post_te1">ORGANICALLY GROW THE HOLISTIC WORLD VIEW</h3>
+        <!--3rd post-->
+             <img src="sanket-images/blog-post-1-150x150.jpg" id="post_im2">
+             <h3 id="post_te2">OVERRIDE THE DIGITAL DIVIDE WITH ADDITIONAL</h3>  
+        </div>
+        <div class="s_box1">
+            <h3 style="font-family:'Bebas Neue',cursive;margin-top:2rem;padding-top:.5rem;font-weight:100;font-size:22px;padding-left:3rem;letter-spacing: 2px;">CATEGORIES</h3>
+            
+            <h3 id="post_t">BUSINESS <img src="sanket-images/next.png" ALIGN="right" style="width: 5%;padding-right: 1rem;"></h3>
+             <h3 id="post_t1">INTRODUCTION <img src="sanket-images/next.png" ALIGN="right" style="width: 5%;padding-right: 1rem;"></h3>
+             
+             <h3 id="post_t2">NEW TECHNOLOGIES <img src="sanket-images/next.png" ALIGN="right" style="width: 5%;padding-right: 1rem;"></h3>      
+             <h3 id="post_t3">ONE PAGE TEMPLATE <img src="sanket-images/next.png" ALIGN="right" style="width: 5%;padding-right: 1rem;"></h3>  
+
+        </div>
+        <div class="s_box2">
+            <h3 style="font-family:'Bebas Neue',cursive;margin-top:2rem;padding-top:.5rem;font-weight:100;font-size:22px;padding-left:3rem;letter-spacing: 2px;">TAGS</h3>
+            <button id="s_but">AGENCY</button>
+            <button id="s_but1">BUSINESS</button>
+            <button id="s_but2">EXPERIENCE</button>
+            <button id="s_but3">INNOVATIVE</button>
+            <button id="s_but4">PARALLAX</button>
+        </div>
+           
+        <!-- posts -->
+           
+           <div class="tex">
+              <img src="sanket-images/blog-post-3.jpg" id="s_img">
+              <h3 id="he">LEVERAGE AGILE FRAMEWORKS TO PROVIDE A ROBUST.</h3>
+              <p id="pa">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of.</p>
+              <a href="#" id="read">READ MORE</a>      
+            </div>
+            <div class="tex1">
+                <img src="sanket-images/blog-post-2.jpg" id="s_img1">
+                <h3 id="he1">ORGANICALLY GROW THE HOLISTIC WORLD VIEW.</h3>
+                <p id="pa1">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of</p>
+                <a href="#" id="read1">READ MORE</a>      
+            </div>
+            <div class="tex2">
+                <img src="sanket-images/blog-post-1.jpg" id="s_img2">
+                <h3 id="he2">OVERRIDE THE DIGITAL DIVIDE WITH ADDITIONAL.</h3>
+                <p id="pa2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of</p>
+                <a href="#" id="read2">READ MORE</a>      
+            </div>
+            <div class="tex3">
+                <img src="sanket-images/blog-post-4.jpg" id="s_img3">
+                <h3 id="he3">BRING TO THE TABLE WIN-WIN SURVIVAL STRATEGIES.</h3>
+                <p id="pa3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of</p>
+                <a href="#" id="read3">READ MORE</a>      
+            </div>
+            <div class="tex4">
+                <img src="sanket-images/blog-post-6.jpg" id="s_img4">
+                <h3 id="he4">AT THE END OF THE DAY, GOING FORWARD, A NEW NORMAL.</h3>
+                <p id="pa4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of</p>
+                <a href="#" id="read4">READ MORE</a>      
+            </div>
+    </div>
+
+
+    <!-- footer section -->
+    
+    <footer style="background-color: #333;">
+        <div class="parent1" style=" padding: 5rem 3rem;display: flex;justify-content: space-evenly;">
+        <div class="section1">
+        
+                <div style="display: flex;" class="img-png">
+                    <img src="kalpesh-images/footer-logo.png" width="100"/>
+                </div>
+                <div class="footer-content">
+                    <h3 style="color: whitesmoke;padding-top: 2rem;font-family: 'Oswald', sans-serif;letter-spacing: 1.6px;">
+                        Welcome to our web design  <br>
+                        agency. Lorem ipsum simply free <br>
+                         text dolor sited amet cons cing elit.</h3>
+                </div>
+                <div class="logos"  style="display: flex;justify-content: space-between;">
+                    <div class="kal_facebook">
+                        <img src="kalpesh-images/kaplesh-icons8-facebook-48.png" alt="" style="color: white; width: 30px">
+                    </div>
+                    <div class="kal_twitter">
+                        <img src="kalpesh-images/kaplesh-icons8-twitter-60.png" alt="" width="30px">
+                    </div>
+                    <div class="kal_instagram">
+                        <img src="kalpesh-images/kaplesh-icons8-instagram-48.png" alt="" width="30px">
+                    </div>
+                    <div class="kal_pinterest">
+                        <img src="kalpesh-images/kaplesh-icons8-pinterest-48 (1).png" alt="" width="30px">
+                    </div>
+                </div>
+            </div>
+            <div class="section2" >
+                <div class="explore"><h2 style="font-family:  'Rubik', sans-serif;">Explore</h2></div>
+                <div class="list">
+                        <ul>
+                        <li>About us</li>
+                        <li>Meet Our Team</li>
+                        <li>Our portfolio</li>
+                        <li>Contact Us</li>
+                        <li>Help</li>
+                    </ul>
+                </div>
+            </div>
+            
+        
+            <div class="section3">
+                
+                <div class="contact">
+                    <h2 style="color: whitesmoke;font-family:  'Rubik', sans-serif;">Contact</h2>
+                    <div class="address">
+                        <div class="location-png">
+                            <img src="kalpesh-images/icons8-location-64.png" alt="">
+                        </div>
+                        <div class="location-info">66 Broklyn Street, New York <br />
+                            United States of America</div>
+                    </div>
+                    
+                    <div class="telephone">
+                        <div class="phone-logo">
+                            <img src="kalpesh-images/icons8-phone-ringing-30.png" alt=""></div>
+                        <div class="number">666 888 000</div>
+                    </div>
+                </div>
+                <div class="mail">
+                    <div class="Email-png">
+                        <img src="kalpesh-images/icons8-mail-48.png" alt="">
+                    </div>
+                    <div class="email-info">
+                        kalpesht2000@gmail.com
+                    </div>
+                </div>
+            </div>
+            <div class="section4">
+                <div class="newsletter"><h2 style="font-family:  'Rubik', sans-serif;">newsletter</h2></div>
+                <div class="letterbox">
+                    <input type="text" />
+                    <img src="kalpesh-images/icons8-mail-48.png" alt="">
+    
+                </div>
+                <div class="contactUs">
+                    <button>Contact Us</button>
+                </div>
+            </div>
+        </div>
+                        
+    </footer>
+
+</body>
+</html>
