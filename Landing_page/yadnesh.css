@@ -153,18 +153,18 @@ html {
 
 .welcome_text{
   margin-left: 5%;
-  margin-top: 12%;
+  margin-top: 5%;
   color: white;
   width: 50%;
   height: auto;
 }
 
 .welcome_text h5{
-  font-size: 24px;
+   font-size: 1.5rem;
 }
 
 .welcome_text h1{
-  font-size: 90px;
+  font-size: 5rem;
 }
 
 .discover_btn button{
@@ -203,10 +203,14 @@ html {
 }
 
 .left_curve{
+   height: auto;
+  width: auto;
   margin-top: -10%;
+  margin-left: -2%;
 }
 .right_curve{
-  margin-top: 7.5%;
+    width: auto;
+  margin-top: 6.900%;
   margin-left: 55%;
 }
 
