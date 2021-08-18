@@ -1,5 +1,4 @@
-# Linoor-Template
-Project by Accord Web
+# Accord Web World
 
 
 Main Link : https://accord-interns.github.io/Accord-Web-World/Landing_page/
