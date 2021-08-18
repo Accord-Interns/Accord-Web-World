@@ -268,7 +268,9 @@ html {
   color: #edf0f1;
 }
 
-@media (max-device-width: 992px){
+/* @media (max-device-width: 992px) */
+@media screen and ( max-width: 992px )
+{
   .navbar{
       border:none;
   }
@@ -315,7 +317,9 @@ html {
 
 }
 
-@media (max-device-width: 480px){
+/* @media (max-device-width: 480px) */
+@media screen and ( max-width: 480px )
+{
   .welcome_text{
   margin-left: 15%;
   margin-top: 5%;
@@ -389,7 +393,9 @@ html {
 
 }
 
-@media (max-device-width: 991px) {
+/* @media (max-device-width: 991px)  */
+@media screen and ( max-width: 991px )
+{
   
   .main{
     display: flex;
@@ -400,7 +406,9 @@ html {
 
 }
 
-@media (max-device-width: 600px) {
+/* @media (max-device-width: 600px) */
+@media screen and ( max-width: 600px )
+{
   .main{
     display: block;
   }
@@ -451,7 +459,9 @@ html {
 .box-text:hover{
   color: black;
 }
-@media (max-device-width: 600px) {
+/* @media (max-device-width: 600px) */
+@media screen and ( max-width: 600px )
+{
   .dual-box-h1{
     /* color: white; */
     font-size: 45px;
