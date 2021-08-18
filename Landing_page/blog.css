@@ -266,7 +266,9 @@
     color: #edf0f1;
   }
   
-  @media (max-device-width: 992px){
+/*   @media (max-device-width: 992px) */
+  @media screen and ( max-width: 992px )
+  {
     .navbar{
         border:none;
     }
@@ -313,7 +315,9 @@
   
   }
   
-  @media (max-device-width: 480px){
+/*   @media (max-device-width: 480px) */
+  @media screen and ( max-width: 480px )
+  {
     .welcome_text{
     margin-left: 15%;
     margin-top: 5%;
